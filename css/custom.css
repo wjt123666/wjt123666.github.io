@@ -86,11 +86,6 @@
   transition: text-shadow 1s linear !important;
 }
 
-#page-header #post-info{
-  text-align: center;
-  bottom: 100px;
-}
-
 /* 背景宇宙星光  */
 #universe{
   display: block;
@@ -1058,4 +1053,9 @@ h6::before {
 
 .article-info {
   text-align: center;
+}
+
+/* 飞织因太美 bug */
+#drone .container {
+  overflow: hidden;
 }
